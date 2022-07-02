@@ -409,7 +409,7 @@ html {
   --nav-item-letter-spacing: 0.04rem;
   --nav-item-display: inline-block;
   --nav-item-margin: 0 0 3rem 0;
-  --nav-item-link-hover: var(var(--color-primary));
+  --nav-item-link-hover: var(--color-primary);
 }
 
 body {
@@ -505,7 +505,7 @@ a:active {
 .nav {
   margin: 0;
   padding: 0;
-  list-style: none;
+  list-style-type: none;
   text-align: center;
 }
 
