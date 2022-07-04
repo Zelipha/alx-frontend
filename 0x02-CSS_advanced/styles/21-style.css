@@ -537,7 +537,7 @@ ul.row {
   list-style-type: none;
 }
 
-[class*="col-1"] {
+[class*="col-"] {
   float: left;
   padding: 0.5rem;
 }
