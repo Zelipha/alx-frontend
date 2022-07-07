@@ -480,6 +480,7 @@ ul.row {
   padding: 2.5rem;
   position: relative;
   user-select: none;
+  display: none;
 }
 
 .header .menu-icon .navicon {
@@ -559,7 +560,6 @@ ul.row {
 
   .header .menu-icon {
     display: block;
-    display: none;
   }
 }
 
@@ -569,7 +569,7 @@ ul.row {
   }
 }
 
-@media screen and (min-width: 481px) and (max-width: 767px) {
+@media all and (max-width: 767px) and (min-width: 481px) {
   .header-logo {
     flex-basis: 79%;
   }
